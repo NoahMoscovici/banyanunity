@@ -35,9 +35,6 @@ class listener(BanyanBase):
 
         m.patch()
 
-        # Set the topic to listen from Unity to print it out.
-        self.set_subscriber_topic('send_to_unity')
-
         self.receive_loop()
 
 
