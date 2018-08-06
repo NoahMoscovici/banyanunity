@@ -17,10 +17,10 @@ Go to the [Unity Store Page](https://store.unity.com/) and choose the type of Un
 This script uses Banyan to constantly listen to messages with the topic of send_to_unity, and forward those messages to Unity. It sends the message to Unity by opening a socket encoding the message, then after sending the message it will close the socket.
 
 ### Unitylistener.py
-This script receives messages sent by Unity, by listening to the topic of receive_unity_messages
+This script receives messages sent by Unity, by listening to the port 5001 on a socket. Once Unitylistener.py decodes the message, it sends the message to the backplane witht he topic of receive_unity_message.
 
 ### test_unity_sender_cube.py
-Test_unity_sender_cube documentation
+This script uses Banyan to send two messages with the topic of send_to_unity. Each topic is in a dictionary format, which is eventually comverted to JSON once sent.
 
 ## Images for how all of the components work together
 
