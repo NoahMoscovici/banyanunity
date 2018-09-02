@@ -1,4 +1,4 @@
-# unitybanyan
+# banyanunity
 
 ## Prerequisites
 
@@ -24,4 +24,4 @@ This script uses Banyan to send two messages with the topic of send_to_unity. Ea
 
 ## Images for how all of the components work together
 
-![Image of UnityBanyan Chart](https://github.com/NoahMoscovici/unitybanyan/blob/master/BanyanUnity.png)
+![Image of BanyanUnity Chart](https://github.com/NoahMoscovici/unitybanyan/blob/master/BanyanUnity.png)
