@@ -2,11 +2,11 @@
 
 ### Installs
 
-Python 3 install
-Go to the Python 3 Install Page and scroll down to the bottom of the page. Choose your install type, and install. Make sure to add Python to the PATH!
+### Python 3 install
+ Go to the [Python 3 Install Page](https://www.python.org/downloads/release/python-354/) and scroll down to the bottom of the page. Choose your install type, and install. Make sure to add Python to the PATH! 
 
-Banyan install
-To install Banyan on your machine, just open a command shell in Windows by pressing the Windows button and typing cmd. Since Python 3 comes with Pip, use pip to install Banyan. Just type in the command shell: pip install python-banyan
+### Banyan install
+To install Banyan on your machine, just open a command shell in Windows by pressing the Windows button and typing **cmd**. Since Python 3 comes with Pip, use pip to install Banyan. Just type in the command shell: `pip install python-banyan`
 
 ### Setup
 
