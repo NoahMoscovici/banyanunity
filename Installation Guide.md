@@ -1,4 +1,5 @@
 ## How to install Banyan Unity into your Unity game.
+These are the steps needed to run on the machine running your Unity game.
 
 ### Step 1: Install Python 3
 Go to the [Python 3 Install Page](https://www.python.org/downloads/release/python-354/) and scroll down to the bottom of the page. Choose your install type, and install. Make sure to add Python to the PATH! 
