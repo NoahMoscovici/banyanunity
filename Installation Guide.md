@@ -1,18 +1,27 @@
 ## How to install Banyan Unity into your Unity game.
 
-### Installs
+### Step 1: Install Python 3
+Go to the [Python 3 Install Page](https://www.python.org/downloads/release/python-354/) and scroll down to the bottom of the page. Choose your install type, and install. Make sure to add Python to the PATH! 
 
-### Python 3 install
- Go to the [Python 3 Install Page](https://www.python.org/downloads/release/python-354/) and scroll down to the bottom of the page. Choose your install type, and install. Make sure to add Python to the PATH! 
-
-### Banyan install
+### Step 2: Install Banyan
 To install Banyan on your machine, just open a command shell in Windows by pressing the Windows button and typing **cmd**. Since Python 3 comes with Pip, use pip to install Banyan. Just type in the command shell: `pip install python-banyan`
 
-### Setup
+### Step 3: Download and import Banyan Unity to your Unity game
 
 1. Download and import Banyan Unity into your game.
 2. Open up the BanyanUnity Demo Scene.
-3. Copy over the Sender, Listener, and Cube into your own scene. You shouldn't ever have to edit the Sender or Listener code, only the MessageProcessor code on the Cube. 
-4. Copy over the MessageProcessor script from the Cube to your own Object that will be reacting to the messages being received.
-5. Make sure both the unitygateway.py and the unitylistener.py are both running. Then run your game.
-6. Finally run the test_unity_sender_cube.py
+3. Copy over the Sender and Listener Game Objects, and also the Cube into your own scene.
+
+### Step 4: Test it!
+
+1. Run unitygateway.py
+2. Run unitylistsner.py
+3. Run your Unity game
+4. Run test_unity_sender_cube.py
+If the cube starts flashing colors, you did they other steps correctly!
+
+### Step 5: Integrate it in to your own project
+
+1. In your scene, copy the MessageProcessor script in the cube over to an object in your scene that will be reacting to the messages received. 
+2. Change DoAction() in the MessageProcessor code to do whatever you would like the reaction of the new message coming in to be.
+3. Change the test_unity_sender_cube.py code to send your specific messages.
