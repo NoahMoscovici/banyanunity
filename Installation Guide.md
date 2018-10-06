@@ -1,11 +1,24 @@
 ## How to install Banyan Unity into your Unity game.
 These are the steps needed to run on the machine running your Unity game.
 
-### Step 1: Install Python 3
-Go to the [Python 3 Install Page](https://www.python.org/downloads/release/python-354/) and scroll down to the bottom of the page. Choose your install type, and install. Make sure to add Python to the PATH! 
+### Step 1: Install Python 3 and Serial
+Go to the [Python 3 Install Page](https://www.python.org/downloads/release/python-354/) and scroll down to the bottom of the page. Choose your install type, and install. **Make sure to add Python to the PATH!**
 
-### Step 2: Install Banyan
+Open up a command shell, and run: `pip install pyserial`
+
+
+### Step 2: Install Banyan and Run Backplane
 To install Banyan on your machine, just open a command shell in Windows by pressing the Windows button and typing **cmd**. Since Python 3 comes with Pip, use pip to install Banyan. Just type in the command shell: `pip install python-banyan`
+
+To run the backplane, open a command shell and type: `backplane`. You will recieve an output that looks like: 
+```
+******************************************
+Banyan BackPlane IP address: 10.8.0.14
+Subscriber Port = 43125
+Publisher  Port = 43124
+******************************************
+```
+Copy the IP adress from the first line (in this case `10.8.0.14`) and paste it in **unitylistener.py**, **unitygateway**, and **test_unity_sender_cube.py** where the script defines the constant: `BANYAN_IP`, replacing the IP defined there.
 
 ### Step 3: Download and import Banyan Unity to your Unity game
 
@@ -24,9 +37,9 @@ To install Banyan on your machine, just open a command shell in Windows by press
 2. Run unitylistener.py
 3. Run your Unity game
 4. Run test_unity_sender_cube.py
-If the cube starts flashing colors, you did they other steps correctly!
+If the cube starts flashing colors, you did the other steps correctly!
 
-### Step 4: Integrate it in to your own project
+### Step 6: Integrate it in to your own project
 
 1. In your scene, copy the MessageProcessor script in the cube over to an object in your scene that will be reacting to the messages received. 
 2. Change DoAction() in the MessageProcessor code to do whatever you would like the reaction of the new message coming in to be.
