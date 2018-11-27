@@ -8,7 +8,7 @@ import sys
 import time
 from python_banyan.banyan_base import BanyanBase
 
-BANYAN_IP="172.16.70.1"
+BANYAN_IP="172.16.71.1"
 
 class test(BanyanBase):
     """
