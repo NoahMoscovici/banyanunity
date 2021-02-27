@@ -5,6 +5,7 @@
 This package allows two-way communication with your Unity project and the outside world. Using sockets, you can flawlessly receive and send messages with any machine running on a Banyan network. This will allow your game to not only be affected by real-world actions, but also trigger them via Arduinos or Raspberry Pis.
 
 For more information see this [extended guide](https://github.com/NoahMoscovici/banyanunity/blob/master/Unity%20Asset%20Store%20Description.md).
+[Unity Asset Store Page](https://assetstore.unity.com/packages/tools/integration/banyan-unity-124623)
 
 ## Prerequisites
 
