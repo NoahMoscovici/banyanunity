@@ -2,7 +2,7 @@
 
 ## Overview
 
-Banyanunity is a package built upon the [python-banyan framework](https://mryslab.github.io/python_banyan/), allowing two-way communication between Unity's game environment and python applications. Using lightweight. asynchronous socket communication, Banyanunity allows you communicate quickly and effectively between the two environments as long as they are both a part of the banyan network.  
+Banyanunity is a package built upon the [python-banyan framework](https://mryslab.github.io/python_banyan/), allowing two-way communication between Unity's game environment and python applications. Using lightweight. asynchronous socket communication, Banyanunity allows you communicate quickly and effectively between the two environments as long as they are both a part of the banyan network. You can view the installation guide [here](https://github.com/NoahMoscovici/banyanunity/blob/master/Installation%20Guide.md).
 
 You can view the Unity Asset Store counterpart with its respective documentation [here](https://assetstore.unity.com/packages/tools/integration/banyan-unity-124623).
 
@@ -25,3 +25,6 @@ These scripts were based on the TCP & UDP chat framework developed by HardlyDiff
 
 ## How each component communicates with one another
 ![Image of BanyanUnity Chart](https://github.com/NoahMoscovici/unitybanyan/blob/master/BanyanUnity.png)
+
+---
+*For further help on installation or other inquiries, feel free to contact me at noah.moscovici@gmail.com*
