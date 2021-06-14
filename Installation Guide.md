@@ -11,7 +11,7 @@ c) Installing Python Banyan. Once again using Pip, you can run `pip install pyth
 ### Step 2: Installing and configuring Banyan Unity
 Now that we have installed the dependencies for Banyan Unity, we clone the repository and manually copy over the files in the [python components folder](https://github.com/NoahMoscovici/banyanunity/tree/master/python%20components) of this repository. Out of the three files in the folder (unitylistener.py, unitygateway.py, and test_unity_sender_cube.py) only the unitylistener.py and unitygateway.py are needed to complete the Banyan Unity structure. test_unity_sender_cube.py exists as an example for sending messages through the Python Banyan framework to our Unity game. 
 
-However, these three files need to be configured in order to work on the Python Banyan framework that you just installed on your machine. Right now, in all three files there exists the line `BANYAN_IP="10.111.0.3"` which defines the Backplane IP address. You will need to change this line to the IP of the machine that the backplane will be running on. Keep in mind that unitylistener.py and unitygateway.py will both be running on the same machine that is running the Unity game, however not necesarily the same machine that the Backplane is being run from. If you are unsure as to the correct IP that your Python Banyan Backplane is running on, you can check the output that will print to the console after starting the Backplane: 
+However, these three files need to be configured in order to work on the Python Banyan framework that you just installed on your machine. Right now, in all three files there exists the line `BANYAN_IP="10.111.0.3"` which defines the Backplane IP address. You will need to change this line to the IP of the machine that the backplane will be running on. Keep in mind that unitylistener.py and unitygateway.py will both be running on the same machine that is running the Unity game, however not necessarily the same machine that the Backplane is being run from. If you are unsure as to the correct IP that your Python Banyan Backplane is running on, you can check the output that will print to the console after starting the Backplane: 
 ```
 ******************************************
 Banyan BackPlane IP address: 10.111.0.3
@@ -21,7 +21,7 @@ Publisher  Port = 43124
 ```
 *If you are at all confused on the purpose of the Backplane or how to manually start it, refer back to [Alan Yorink's documentation on his Python Banyan](https://mryslab.github.io/python_banyan/users_guide/).*
 
-Copy the IP adress from the first line (in this case `10.111.0.3`) and replace the line in unitylistener.py, unitygateway.py, and test_unity_sender_cube.py. Now, the gateway, listener, and sending script will be able to access the Backplane.
+Copy the IP address from the first line (in this case `10.111.0.3`) and replace the line in unitylistener.py, unitygateway.py, and test_unity_sender_cube.py. Now, the gateway, listener, and sending script will be able to access the Backplane.
 
 ### Step 3: Importing Banyan Unity to the Unity environment
 
