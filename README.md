@@ -12,7 +12,7 @@ For this package you will need [Python 3](https://www.python.org/downloads/relea
 ## Overview on Banyanunity architecture
 ![banyanunity diagram](https://github.com/NoahMoscovici/unitybanyan/blob/master/banyanunity.png)
 
-Below is a brief explanation on the purpose of each component. Both the Python and C# components of Banyanunity are located in this GitHub repository: *[(python components)](https://github.com/NoahMoscovici/banyanunity/tree/master/python%20components) and [(unity components)](https://github.com/NoahMoscovici/banyanunity/tree/master/unity%20components).*
+Below is a brief explanation on the purpose of each component. Both the Python and C# components of Banyanunity are located in this [GitHub repository](https://github.com/NoahMoscovici/banyanunity/tree/master/banyanunity).
 
 ### TcpConnectedClient.cs
 The framework used for the Unity C# programs were originally based on the TCP & UDP chat framework developed by HardlyDifficult. You can see a more in-depth guide on this implemented structure [here](https://www.youtube.com/watch?v=MW91_l2dnnU&ab_channel=HardlyDifficult).
