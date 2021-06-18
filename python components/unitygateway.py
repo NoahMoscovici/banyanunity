@@ -2,7 +2,7 @@
 """
 
 
- Copyright (c) 2019 Noah Moscovici, Palace Games. All right reserved.
+ Copyright (c) 2021 Noah Moscovici, Palace Games. All right reserved.
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE
