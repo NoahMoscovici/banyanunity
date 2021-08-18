@@ -1,18 +1,18 @@
-# banyanunity
+# Banyan Unity
 
 ## Overview
 
-Banyanunity is a package built upon the [python-banyan framework](https://mryslab.github.io/python_banyan/), allowing two-way communication between Unity's game environment and python applications using lightweight asynchronous socket communication. You can view the installation guide [here](https://github.com/NoahMoscovici/banyanunity/blob/master/Installation%20Guide.md).
+Banyan Unity is a package built upon the [python-banyan framework](https://mryslab.github.io/python_banyan/), allowing two-way communication between Unity's game environment and python applications using lightweight asynchronous socket communication. You can view the installation guide [here](https://github.com/NoahMoscovici/banyanunity/blob/master/Installation%20Guide.md).
 
 You can view the Unity Asset Store counterpart with its respective documentation [here](https://assetstore.unity.com/packages/tools/integration/banyan-unity-124623).
 
 ## Prerequisites
 For this package you will need [Python 3](https://www.python.org/downloads/release/python-354/), [Python Banyan](https://mryslab.github.io/python_banyan/install/), and [Unity](https://store.unity.com/) all installed. A general understanding of [Alan Yorinks' Python Banyan](https://mryslab.github.io/python_banyan/) is highly recommended.
 
-## Overview on Banyanunity architecture
+## Overview on Banyan Unity architecture
 ![banyanunity diagram](https://github.com/NoahMoscovici/unitybanyan/blob/master/banyanunity.png)
 
-Below is a brief explanation on the purpose of each component. Both the Python and C# components of Banyanunity are located in this [GitHub repository](https://github.com/NoahMoscovici/banyanunity/tree/master/banyanunity).
+Below is a brief explanation on the purpose of each component. Both the Python and C# components of Banyan Unity are located in this [GitHub repository](https://github.com/NoahMoscovici/banyanunity/tree/master/banyanunity).
 
 ### TcpConnectedClient.cs
 The framework used for the Unity C# programs were originally based on the TCP & UDP chat framework developed by HardlyDifficult. You can see a more in-depth guide on this implemented structure [here](https://www.youtube.com/watch?v=MW91_l2dnnU&ab_channel=HardlyDifficult).
